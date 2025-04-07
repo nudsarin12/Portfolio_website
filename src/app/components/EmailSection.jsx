@@ -19,15 +19,11 @@ const EmailSection = () => {
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
-    // Form the request for sending data to the server.
     const options = {
-      // The method is POST because we are sending data.
       method: "POST",
-      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
@@ -69,46 +65,46 @@ const EmailSection = () => {
             ></path>
           </svg>
           <p className="text-sm font-light text-center pt-3 text-white">
-            I'm available for new opportunities. Please feel free to contact me
+            I&apos;m available for new opportunities. Please feel free to contact me
             to discuss further
           </p>
         </div>
       </div>
-      <div class="p-8 bg-white text-black rounded-lg shadow-md">
-        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-          <li class="py-3 sm:py-4">
-            <div class="flex items-center">
-              <p class="text-lg font-semibold text-black truncate dark:text-white">
+      <div className="p-8 bg-white text-black rounded-lg shadow-md">
+        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+          <li className="py-3 sm:py-4">
+            <div className="flex items-center">
+              <p className="text-lg font-semibold text-black truncate dark:text-white">
                 Hire me!
               </p>
             </div>
           </li>
-          <li class="py-3 sm:py-4">
-            <div class="flex items-center">
+          <li className="py-3 sm:py-4">
+            <div className="flex items-center">
               <div className="flex-shrink-0">
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
-              <div class="flex-1 min-w-0 ms-4">
-                <p class="text-sm font-medium text-black truncate dark:text-white">
+              <div className="flex-1 min-w-0 ms-4">
+                <p className="text-sm font-medium text-black truncate dark:text-white">
                   <a
-                    href="mailto:nuchning124@gmail.com "
-                    class="hover:underline"
+                    href="mailto:nuchning124@gmail.com"
+                    className="hover:underline"
                   >
                    nuchning124@gmail.com
                   </a>
                 </p>
               </div>
-              <div class="inline-flex items-center text-base font-semibold text-black dark:text-white">
+              <div className="inline-flex items-center text-base font-semibold text-black dark:text-white">
                 <a
-                  href="mailto:kornkanok.dev@gmail.com"
-                  class="hover:text-blue-500"
+                  href="mailto:nuchning124@gmail.com"
+                  className="hover:text-blue-500"
                 >
                   <FontAwesomeIcon icon={faSquareArrowUpRight} />
                 </a>
               </div>
             </div>
           </li>
-          <li class="py-3 sm:py-4">
+          <li className="py-3 sm:py-4">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <FontAwesomeIcon icon={faGithub} />
@@ -116,7 +112,7 @@ const EmailSection = () => {
               <div className="flex-1 min-w-0 ms-4">
                 <p className="text-sm font-medium text-black truncate dark:text-white">
                   <a
-                    href="https://github.com/nudsarin12 "
+                    href="https://github.com/nudsarin12"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline"
@@ -137,35 +133,6 @@ const EmailSection = () => {
               </div>
             </div>
           </li>
-          {/* <li class="py-3 sm:py-4">
-            <div class="flex items-center">
-              <div class="flex-shrink-0">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </div>
-              <div class="flex-1 min-w-0 ms-4">
-                <p class="text-sm font-medium text-black truncate dark:text-white">
-                  <a
-                    href="https://medium.com/@kornkanokr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="hover:underline"
-                  >
-                    medium.com/@kornkanokr
-                  </a>
-                </p>
-              </div>
-              <div class="inline-flex items-center text-base font-semibold text-black dark:text-white">
-                <a
-                  href="https://medium.com/@kornkanokr"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="hover:text-blue-500"
-                >
-                  <FontAwesomeIcon icon={faSquareArrowUpRight} />
-                </a>
-              </div>
-            </div>
-          </li> */}
         </ul>
       </div>
     </section>
