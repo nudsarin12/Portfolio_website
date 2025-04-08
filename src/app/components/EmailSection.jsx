@@ -65,8 +65,8 @@ const EmailSection = () => {
             ></path>
           </svg>
           <p className="text-sm font-light text-center pt-3 text-white">
-            I&apos;m available for new opportunities. Please feel free to contact me
-            to discuss further
+            I&apos;m available for new opportunities. Please feel free to
+            contact me to discuss further
           </p>
         </div>
       </div>
@@ -74,9 +74,9 @@ const EmailSection = () => {
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           <li className="py-3 sm:py-4">
             <div className="flex items-center">
-              <p className="text-lg font-semibold text-black truncate dark:text-white">
+              <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Hire me!
-              </p>
+              </h5>
             </div>
           </li>
           <li className="py-3 sm:py-4">
@@ -85,12 +85,12 @@ const EmailSection = () => {
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div className="flex-1 min-w-0 ms-4">
-                <p className="text-sm font-medium text-black truncate dark:text-white">
+                <p className="block mb-2 font-sans text-base antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                   <a
                     href="mailto:nuchning124@gmail.com"
                     className="hover:underline"
                   >
-                   nuchning124@gmail.com
+                    nuchning124@gmail.com
                   </a>
                 </p>
               </div>
@@ -110,7 +110,7 @@ const EmailSection = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </div>
               <div className="flex-1 min-w-0 ms-4">
-                <p className="text-sm font-medium text-black truncate dark:text-white">
+                <p className="block mb-2 font-sans text-base antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                   <a
                     href="https://github.com/nudsarin12"
                     target="_blank"
