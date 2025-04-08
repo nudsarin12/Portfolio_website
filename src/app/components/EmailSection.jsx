@@ -133,6 +133,35 @@ const EmailSection = () => {
               </div>
             </div>
           </li>
+          <li className="py-3 sm:py-4">
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <FontAwesomeIcon icon={faLinkedin} /> {/* ไอคอน LinkedIn */}
+              </div>
+              <div className="flex-1 min-w-0 ms-4">
+                <p className="block mb-2 font-sans text-base antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                  <a
+                    href="https://www.linkedin.com/in/%E0%B8%99%E0%B8%B8%E0%B8%A9%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%84%E0%B8%B3%E0%B9%80%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87-847a402a9/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    linkedin.com/in/นุษรินทร์-คำเบ้าเมือง
+                  </a>
+                </p>
+              </div>
+              <div className="inline-flex items-center text-base font-semibold text-black dark:text-white">
+                <a
+                  href="https://www.linkedin.com/in/%E0%B8%99%E0%B8%B8%E0%B8%A9%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%84%E0%B8%B3%E0%B9%80%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87-847a402a9/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500"
+                >
+                  <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                </a>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </section>
