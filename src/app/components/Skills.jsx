@@ -42,9 +42,6 @@ const Skills = () => {
                 <span className="bg-yellow-500/20 text-yellow-400 text-xs font-medium px-3 py-1 rounded-full">
                   JavaScript
                 </span>
-                <span className="bg-green-500/20 text-green-400 text-xs font-medium px-3 py-1 rounded-full">
-                  TypeScript
-                </span>
                 <span className="bg-purple-500/20 text-purple-400 text-xs font-medium px-3 py-1 rounded-full">
                 Python
                 </span>
